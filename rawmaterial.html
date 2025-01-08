@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<!--<div class="container-fluid">-->
+
+<!--header area start-->
+<div class="row" style="background-color: #F5EFFF; width: 100%; height: 100px;margin: 0; padding: 0">
+    <h1 class="p-4 text-center">Raw Material</h1>
+</div>
+<!--header area start-->
+
+
+<!--form area start-->
+<div class="card m-5 p-5">
+<form onsubmit="return false">
+
+<!--    first row start-->
+    <div class="row">
+
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <label for="selectRmCt" class="form-label fw-bold">Raw Material Category</label>
+            <select id="selectRmCt" class="form-select text-center"></select>
+        </div>
+        <div class="col-md-3">
+            <label for="textRmName" class="form-label fw-bold">Raw Material Name <i class="text-danger">*</i> </label>
+            <input type="text" id="textRmName" class="form-control text-start" placeholder="Enter Raw Material Name">
+        </div>
+        <div class="col-md-3"></div>
+
+    </div>
+<!--    first row end-->
+
+
+    <!--    second row start-->
+    <div class="row mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <label for="textRmForm" class="form-label fw-bold">Raw Material Form <i class="text-danger">*</i> </label>
+            <input type="text" id="textRmForm" class="form-control text-start" placeholder="Enter Raw material Form">
+        </div>
+        <div class="col-md-3">
+            <label for="txtRmPacking" class="form-label fw-bold ">Raw Material Packing <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmPacking" class="form-control text-start" placeholder="Enter Raw Material Packing">
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <!--    second row end-->
+
+
+    <!--third row start-->
+    <div class="row mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <label for="txtRmQty" class="form-label fw-bold ">Raw Material QTY <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmQty" class="form-control text-start" placeholder="Enter Raw Material QTY">
+
+        </div>
+        <div class="col-md-3">
+            <label for="txtRmRate" class="form-label fw-bold ">Raw Material Rate <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmRate" class="form-control text-start" placeholder="Enter Raw Material Rate">
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <!--third row start-->
+
+
+    <!--forth row start    -->
+    <div class="row mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <label for="txtRmReOrderLevel" class="form-label fw-bold ">Raw Material Re Order Level <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmReOrderLevel" class="form-control text-start" placeholder="Enter Raw Material Re order level">
+
+        </div>
+        <div class="col-md-3">
+            <label for="txtRmStatus" class="form-label fw-bold ">Raw Material Status <i class="text-danger">*</i> </label>
+            <select id="txtRmStatus" class="form-select text-center">
+                <option selected disabled>Select Status</option>
+                <option value="true">Active</option>
+                <option value="false">Inactive</option>
+            </select>
+
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <!--forth row end    -->
+
+
+
+
+</form>
+</div>
+<!--form area end-->
+
+
+
+<!--table area start-->
+<div class="card mt-5 p-5">
+    <table class="table table-hover table-striped">
+
+        <thead>
+                <th>#</th>
+                <th>Raw Material category</th>
+                <th>Name</th>
+                <th>Form</th>
+                <th>Packing</th>
+                <th>QTY</th>
+                <th>Rate</th>
+                <th>Re order level</th>
+                <th>Status</th>
+                <th>Action</th>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+    </table>
+</div>
+<!--table area end-->
+
+
+<!--</div>-->
+</body>
+</html>

@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<!--<div class="container-fluid">-->
+
+<!--header area start-->
+<div class="row" style="background-color: #F5EFFF; width: 100%; height: 100px;margin: 0; padding: 0">
+    <h1 class="p-4 text-center">Raw Material Category</h1>
+</div>
+<!--header area start-->
+
+
+<!--form area start-->
+<div class="card m-5 p-5">
+<form onsubmit="return false">
+
+<!--    first row start-->
+    <div class="row">
+
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <label for="textRmCtCode" class="form-label fw-bold">Category Code</label>
+            <input type="text" id="textRmCtCode" class="form-control text-start" placeholder="Enter Category Code">
+        </div>
+        <div class="col-md-3">
+            <label for="textRmCtSize" class="form-label fw-bold">Category Size <i class="text-danger">*</i> </label>
+            <input type="text" id="textRmCtSize" class="form-control text-start" placeholder="Enter Category Size">
+        </div>
+        <div class="col-md-3"></div>
+
+    </div>
+<!--    first row end-->
+
+
+    <!--    second row start-->
+    <div class="row mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <label for="textRmCtName" class="form-label fw-bold">Category Name <i class="text-danger">*</i> </label>
+            <input type="text" id="textRmCtName" class="form-control text-start" placeholder="Enter Category Name">
+        </div>
+        <div class="col-md-3">
+            <label for="txtRmCtVolume" class="form-label fw-bold ">Category Volume <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmCtVolume" class="form-control text-start" placeholder="Enter Category Volume">
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <!--    second row end-->
+
+
+    <!--third row start-->
+    <div class="row mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <label for="txtRmCtShape" class="form-label fw-bold ">Category Shape <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmCtShape" class="form-control text-start" placeholder="Enter Category Shape">
+
+        </div>
+        <div class="col-md-3">
+            <label for="txtRmCtMOQ" class="form-label fw-bold ">Category MOQ <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmCtMOQ" class="form-control text-start" placeholder="Enter Category MOQ">
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <!--third row start-->
+
+
+    <!--forth row start    -->
+    <div class="row mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <label for="txtRmCtDuration" class="form-label fw-bold ">Category Duration <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmCtDuration" class="form-control text-start" placeholder="Enter Category Duration">
+
+        </div>
+        <div class="col-md-3">
+            <label for="txtRmCtPackaging" class="form-label fw-bold ">Category Packaging <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmCtPackaging" class="form-control text-start" placeholder="Enter Category Packaging">
+
+        </div>
+        <div class="col-md-3"></div>
+    </div>
+    <!--forth row end    -->
+
+
+    <!--fifth row start    -->
+    <div class="row mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-6">
+            <label for="txtRmCtDescription" class="form-label fw-bold ">Category Description <i class="text-danger">*</i> </label>
+            <input type="text" id="txtRmCtDescription" class="form-control text-start" placeholder="Enter Category Description">
+        </div>
+
+        <div class="col-md-3"></div>
+    </div>
+    <!--fifth row start-->
+
+
+    <!--sixth row start    -->
+    <div class="row mt-5">
+        <div class="col-md-3"></div>
+        <div class="col-md-3">
+            <label for="txtRmCtStatus" class="form-label fw-bold ">Category Status <i class="text-danger">*</i> </label>
+           <select id="txtRmCtStatus" class="form-select text-center">
+               <option selected disabled>select an option</option>
+               <option value="true">Active</option>
+               <option value="false">inactive</option>
+           </select>
+        </div>
+        <div class="col-md-3"></div>
+        <div class="col-md-3"></div>
+    </div>
+    <!--sixth row start-->
+
+
+
+</form>
+</div>
+<!--form area end-->
+
+<!--table area start-->
+<div class="card mt-5 p-5">
+    <table class="table table-hover table-striped">
+
+        <thead>
+                <th>#</th>
+                <th>Category Code</th>
+                <th>Category Name</th>
+                <th>Category Size</th>
+                <th>Category Shape</th>
+                <th>Category Description</th>
+                <th>Category Volume</th>
+                <th>Category MOQ</th>
+                <th>Category Duration</th>
+                <th>Category Packaging</th>
+                <th>Status</th>
+                <th>Action</th>
+        </thead>
+
+        <tbody>
+
+        </tbody>
+
+    </table>
+</div>
+<!--table area end-->
+
+
+<!--</div>-->
+</body>
+</html>
